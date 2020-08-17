@@ -28,15 +28,36 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+        
+         <script>
+	  var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init();
+	</script>
+    
+        
     </head>
     <body>
         <section id="home">
-            <div class="container " >
-                <div class="container main">
+            <div class="container" >
+                <div class="container main ">
                     <center>
-                    <div class="abc">
-                        <h1 style="color: white;  font-size: 60px;font-family: 'Raleway', sans-serif;">ANUSHKA & VIRAT</h1>
-                        <h3 style="color: white; font-size: 30px;font-family: 'Raleway', sans-serif; ">Are Getting Married<br>29/10/2001</h3>
+                    <div class="abc ">
+                        <h1 class="wow zoomIn" data-wow-duration="2s" style="color: white;  font-size: 60px;font-family: 'Raleway', sans-serif;">ANUSHKA & VIRAT</h1>
+                        <h3 class="wow zoomIn" data-wow-duration="2s" style="color: white; font-size: 30px;font-family: 'Raleway', sans-serif; ">Are Getting Married<br>29/10/2001</h3>
                     </div>                    
                 </center>
                 </div>
@@ -63,8 +84,8 @@
             <div class="invitation container">
                 <div>
                     <center>
-                        <h1 style="font-size: 50px; color: aliceblue;font-family: 'Raleway', sans-serif;">You are Invited </h1>
-                        <h3 style="font-size: 30px;color: aliceblue; padding: 30px;font-family: 'Raleway', sans-serif;">Obviously and personally !</h3>
+                        <h1 class="wow zoomIn" data-wow-duration="2s" style="font-size: 50px; color: aliceblue;font-family: 'Raleway', sans-serif;">You are Invited </h1>
+                        <h3 class="wow zoomIn" data-wow-duration="2s" style="font-size: 30px;color: aliceblue; padding: 30px;font-family: 'Raleway', sans-serif;">Obviously and personally !</h3>
                     </center>         
                 </div>                           
             </div>
@@ -83,16 +104,16 @@
             <div class="container" id="wedding">
                 <div class="row text-center">
                     <div class="col-sm-4">
-                        <h1 style="font-size: 50px; padding: 30px; color: grey;">WHEN</h1>
-                        <h3 style="font-size: 30px; padding-bottom: 30px;">29th october 2017</h3>
+                        <h1 style="font-size: 50px; padding: 30px; color: grey;font-family: 'Raleway', sans-serif">WHEN</h1>
+                        <h3 style="font-size: 30px; padding-bottom: 30px;font-family: 'Raleway', sans-serif">29th october 2017</h3>
                     </div>
                     <div class="col-sm-4">
-                        <h1 style="font-size: 50px; padding: 30px;color: grey;">WHERE</h1>
-                        <h3 style="font-size: 30px; padding-bottom: 30px;">Germany</h3>
+                        <h1 style="font-size: 50px; padding: 30px;color: grey;font-family: 'Raleway', sans-serif">WHERE</h1>
+                        <h3 style="font-size: 30px; padding-bottom: 30px;font-family: 'Raleway', sans-serif">Germany</h3>
                     </div>
                     <div class="col-sm-4">
-                        <h1 style="font-size: 50px; padding: 30px;color: grey;">TIME</h1>
-                        <h3 style="font-size: 30px; padding-bottom: 30px;">3PM Onwards</h3>
+                        <h1 style="font-size: 50px; padding: 30px;color: grey;font-family: 'Raleway', sans-serif">TIME</h1>
+                        <h3 style="font-size: 30px; padding-bottom: 30px;font-family: 'Raleway', sans-serif">3PM Onwards</h3>
                     </div>
                 </div>
             </div>
